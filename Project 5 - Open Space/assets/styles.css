@@ -1,0 +1,97 @@
+body {
+    background: black;
+    margin: auto;
+}
+
+.space {
+    display: flex;
+    flex-direction: row;
+    background-image: url("img/space.png");
+}
+
+.rocket {
+    float: left;
+    width: auto;
+    height: 120px;
+    position: relative;
+    bottom: -225px;
+    left: 240px;
+    transform: rotate(30deg);
+}
+
+.planet-area {
+    width: 432px;
+}
+
+.planet {
+    height: 450px;
+    width: auto;
+    position: relative;
+    bottom: -10px;
+    right: 10px;
+}
+
+.control-panel {
+    background: linear-gradient(
+            135deg, rgb(0 0 0) 25%, rgb(0 0 0 / 0%) 25%) -50px 0, linear-gradient(
+            225deg, rgb(0 0 0) 25%, rgb(0 0 0 / 0%) 25%) -50px 0, linear-gradient(
+            315deg,rgb(0 0 0) 25%, rgb(0 0 0 / 0%) 25%), linear-gradient(
+            45deg, rgb(0 0 0) 25%, rgb(0 0 0 / 0%) 25%);
+    background-size: 42px 37px;
+    background-color: rgb(174 255 0);
+    display: flex;
+    width: auto;
+    height: 214px;
+    flex-direction: column;
+    position: relative;
+    bottom: -170px;
+    justify-content: center;
+    padding: 9px;
+    border: gray solid 1px;
+}
+.control-panel__inner {
+    background: rgb(37 36 36);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.levers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.levers > input {
+    transform: rotate(-90deg);
+    width: 76px;
+    height: 120px;
+}
+
+.check-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 10px;
+    width: -webkit-fill-available;
+}
+
+.control-panel__inner > input:first-child{
+    border: solid rgb(255 255 0) 1px;
+    border-radius: 10px;
+    background: rgb(0 0 0);
+    color: yellow;
+}
+
+.control-panel__inner > input:nth-child(2) {
+    background: rgb(255 255 0);
+    border-radius: 10px;
+}
+
+.control-panel__inner > input:last-child {
+    background: rgb(255 0 0);
+    border-radius: 18px;
+    height: 29px;
+    border: solid rgb(135 206 250);
+}
