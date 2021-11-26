@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    flex-flow: wrap row;
+}
+button {
+    background-color: darkorange;
+    margin: 10px;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
