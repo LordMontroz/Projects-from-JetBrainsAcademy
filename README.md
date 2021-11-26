@@ -1,1 +1,2 @@
 We will cover the basics of JavaScript, HTML, and CSS to discover the power of modern Frontend development.
+![project5](https://github.com/LordMontroz/Projects-from-JetBrainsAcademy/blob/master/Project%205%20-%20Open%20Space/project5.gif)
