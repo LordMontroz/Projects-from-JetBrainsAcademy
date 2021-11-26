@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(36, 42, 59);
+    text-align: center;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 30em;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.white-keys{
+    display: flex;
+}
+.white-key{
+    background-color: white;
+    width: 50px;
+    border: 1px solid black;
+    padding-top: 120px;
+}
+
+.black-keys{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    justify-content:space-around;
+}
+
+.black-key{
+    background-color: black;
+    width: 35px;
+    color: white;
+    padding-top: 50px;
+}
