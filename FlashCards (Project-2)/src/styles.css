@@ -1,0 +1,69 @@
+body {
+    background-color: lightblue;
+}
+
+.title {
+    font-family: 'Montagu Slab', serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.question, .answer {
+    font-family: 'Road Rage', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    margin: auto;
+}
+
+.quiz {
+    grid-template-rows: 125px 399px;
+}
+
+.cards {
+    background-image: linear-gradient(darkolivegreen, darkcyan) ;
+    border-radius: 10%;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-row-gap: 33px;
+    grid-column-gap: 33px;
+    padding: 33px 0 0 33px;
+    height: 399px;
+    width: 399px;
+}
+
+.card {
+    transform-style: preserve-3d;
+    transition: transform 1.5s ease;
+    height: 100px;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front, .front-title, .back, .back-title {
+    backface-visibility: hidden;
+    border-radius: 20px;
+    padding: 2px 0;
+}
+
+.front, .front-title {
+    background-image: linear-gradient(lightyellow, white);
+}
+
+.back, .back-title {
+    background-image: linear-gradient(black, darkgrey);
+    color: lightyellow;
+}
+
+.back {
+    transform: translate(0, -103px) rotateY(180deg);
+}
+
+.back-title {
+    transform: translate(0, -96px) rotateY(180deg);
+}
